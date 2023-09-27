@@ -1,0 +1,104 @@
+.profilepicture{
+    opacity: 0.6;
+}
+.header{
+    height: 55px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    border-bottom-width:1px ;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(200, 199, 199);
+
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.home{
+    height: 30px;
+    padding-left: 10px;
+    transition: opacity 0.30s;
+}
+.home:hover {
+    opacity:0.7;/*0-1*/
+}
+.home:active{
+    opacity: 0.3;
+}
+.middle-section{
+    flex: 1;
+    margin-left: 500px;
+    margin-right: 25px;
+    max-width: 500px;
+    display: flex;
+    cursor:pointer;
+    align-items: center;
+
+}
+
+
+
+.about{
+    height: 35px;
+    transition: opacity 0.15s;
+}
+
+.about:hover {
+    opacity:0.7;/*0-1*/
+}
+.about:active{
+    opacity: 0.3;
+}
+
+
+.right-section{
+    width: 180px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.heart{
+    height: 70px;
+    align-items: center;
+    width: 100px;
+    
+    padding-left: 0px ;
+}
+
+.profile{
+    height: 40px;
+    transition: opacity 0.15s;
+
+}
+.profile:hover {
+    opacity:0.7;/*0-1*/
+}
+.profile:active{
+    opacity: 0.3;
+}
+.buuton{
+    transition: opacity 0.15s;
+
+}
+.button:hover {
+    opacity:0.7;/*0-1*/
+}
+.button:active{
+    opacity: 0.3;
+}
+

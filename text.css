@@ -1,0 +1,63 @@
+p{
+    font-family: arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.video-title{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-top: 14px;
+}
+.video-stats{
+    font-family: arial;
+    font-size: 14px;
+    color: grey;
+    margin-top: 0px;
+}
+.my-name{
+    font-family: arial;
+    font-size: 14px;
+    color: grey;
+    margin-top: 15px;
+}
+
+.video-description{
+    font-family: arial;
+    font-size: 14px;
+    color: grey;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.apple-text{
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227,65,64);
+    color:white;
+    width: 600px;
+    padding-bottom: 18px;
+    margin-left: 10px;
+
+    padding-top: 18px;
+    text-align: center;
+
+}
+.span-example{
+    color:red;
+    margin-left: 12px;
+
+}
+.span-example:hover{
+    text-decoration: underline;
+}
+.shop-link{
+    cursor: pointer;
+
+}
+.shop-link:hover{
+    text-decoration: underline;
+}
